@@ -1,0 +1,46 @@
+/* Limpeza de formatação
+*********************************************************/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px Helvetica, "Trebuchet MS", sans-serif;
+    background: url(../img/fundo.png) repeat-x;
+}
+
+header {
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#logo {
+    float: left;
+    display: block;
+}
+
+#menu ul {
+    float: right;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #020066;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#menu ul li a:hover {
+    color: #0904fa;
+    text-decoration: underline;
+}
