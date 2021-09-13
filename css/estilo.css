@@ -1,46 +1,35 @@
-/* Limpeza de formatação
-*********************************************************/
-* {
-    padding: 0;
-    margin: 0;
+/* Layout
+-------------------------------------------------*/
+html, body, #home {
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
     font: 12px Helvetica, "Trebuchet MS", sans-serif;
-    background: url(../img/fundo.png) repeat-x;
+    background: url(../img/fundo2.png) repeat-x;
 }
 
-header {
-    width: 720px;
-    margin: 0 auto;
-    padding: 20px 0;
+/* Barra de navegação
+-------------------------------------------------*/
+.navbar-light .navbar-nav .nav-link {
+    color: #011091;
 }
 
-#logo {
-    float: left;
-    display: block;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #001aff;
 }
 
-#menu ul {
-    float: right;
-    list-style: none;
+.navbar-nav ul li a {
+    padding-bottom: 5px;
 }
 
-#menu ul li {
-    float: left;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    padding: 10px 15px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #020066;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-#menu ul li a:hover {
-    color: #0904fa;
+#nav-principal a:hover {
     text-decoration: underline;
+} 
+
+.divisor {
+    width: 1px;
+    background: #011091;
+    margin: 12px 15px;
 }
