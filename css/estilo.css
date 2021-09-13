@@ -20,13 +20,15 @@ body {
     color: #001aff;
 }
 
-.navbar-nav ul li a {
-    padding-bottom: 5px;
-}
-
 #nav-principal a:hover {
     text-decoration: underline;
-} 
+}
+
+.home a#home,
+.quem-somos a#quem-somos,
+.contato a#contato {
+    text-decoration: underline;
+}
 
 .divisor {
     width: 1px;
