@@ -6,7 +6,7 @@ html, body, #home {
 }
 
 body {
-    font: 12px Helvetica, "Trebuchet MS", sans-serif;
+    font: 14px Helvetica, "Trebuchet MS", sans-serif;
     background: url(../img/fundo2.png) repeat-x;
 }
 
@@ -42,8 +42,32 @@ body {
     background: #f5f5f5;
 }
 
+/* Sessão sobre
+-------------------------------------------------*/
+#sobre p {
+    text-align: justify;
+}
+
 /* Tipografia
 -------------------------------------------------*/
+h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.caixa {
+    padding: 30px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer {
+    margin: 5px 15px;
+    padding: 10px 0;
+}
+
+footer span {
+    font-weight: bold;
+}
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) {
@@ -67,7 +91,7 @@ body {
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
 @media (min-width: 1200px) {
-    .container {
+    .container { /* Define a largura máxima da página */
         max-width: 900px;
     }
 }
