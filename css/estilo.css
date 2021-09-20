@@ -55,18 +55,41 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 .caixa {
     padding: 30px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
 footer {
-    margin: 5px 15px;
+    margin: 11.3rem auto;
     padding: 10px 0;
+    color: #272a46;
 }
 
 footer span {
     font-weight: bold;
+}
+
+/* formulário
+-------------------------------------------------*/
+
+label {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+input #formulario-01 #email {
+    width: 400px;
+}
+
+.botao .btn {
+    padding: .375rem 2rem;
 }
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
