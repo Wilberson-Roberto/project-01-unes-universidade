@@ -10,6 +10,10 @@ body {
     background: url(../img/fundo2.png) repeat-x;
 }
 
+.container {
+    border: 1px solid red;
+}
+
 /* Barra de navegação
 -------------------------------------------------*/
 .navbar-light .navbar-nav .nav-link {
