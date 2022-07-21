@@ -5,6 +5,10 @@ body {
     font-family:  Helvetica, "Trebuchet MS", sans-serif;
 }
 
+html, body, .projeto, .contato {
+    height: 100%;
+}
+
 .container {
     max-width: 900px;
 }
@@ -32,8 +36,11 @@ body {
     text-align: justify;
 }
 
-.espaco-footer {
-    margin: 10% 0 28% 0;
+.btn-quiz {
+    margin-top: 15%;
+    border-radius: 100%;
+    padding: 50px 18px;
+    box-shadow: 5px 5px 8px #888888;
 }
 
 /* Tipografia
@@ -47,11 +54,13 @@ h3 {
     color: #005bb1
 }
 
-/* formulário
--------------------------------------------------*/
 
 /* Rodapé
 -------------------------------------------------*/
+
+.espaco-contato {
+    margin: 15% 0;
+}
 
 footer .container{
     background-color: #001d3d;
