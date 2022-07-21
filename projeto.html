@@ -20,7 +20,7 @@
     <title>UNES - Página inicial</title>
 </head>
 
-<body class="contato">
+<body class="home">
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container">
@@ -42,10 +42,10 @@
                             <a class="nav-link" href="quem-somos.html">Quem somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projeto.html">Projeto</a>
+                            <a class="nav-link active" href="projeto.html">Projeto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </div> <!-- Fim do menu -->
@@ -53,52 +53,27 @@
         </nav>
     </header> <!-- Fim do cabeçalho -->
 
-    <section class="caixa">
+    <section id="sobre" class="caixa">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 d-flex">
-                    <div class="align-self-center">
-                        <h3>Entre em contato</h3>
+                <div class="col">
+                    <h2 class="text-center py-4">Projeto: Aptidão para a graduação</h2>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                    </div>
+                    <p class="texto-alinhamento">
+                        Quer saber se está apto a fazer uma de nossas graduações? Faça nosso teste de aptidão através de um jogo de perguntas e respostas. Vamos começar?
+                    </p>
+                </div> <!-- fim da coluna -->
+            </div> <!-- fim da linha -->
+
+            <div class="row espaco-footer">
+                <div class="col">
+                    <a href="quiz.html" class="d-grid gap-2">
+                        <button class="btn btn-primary btn-lg" type="button">Clique aqui para fazer seu teste</button>
+                      </a>
                 </div>
             </div>
-        </div>
-    </section> <!-- Fim da sessão contato -->
-
-    <section class="caixa">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nome Completo:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">E-mail:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label" for="exampleCheck1">Assunto:</label>
-                            <textarea class="form-control" id="" cols="30" rows="10"></textarea>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-primary mb-3" type="button">Enviar</button>
-                        </div>
-                    </form>
-                </div> <!-- Fim da coluna esquerda -->
-                <div class="col-md-6 d-none d-md-block">
-                    <img src="img/contato-img.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section> <!-- Fim da sessão contato -->
+        </div> <!-- fim do container -->
+    </section>
 
     <footer>
         <div class="container">
