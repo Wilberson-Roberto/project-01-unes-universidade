@@ -30,6 +30,21 @@ body {
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
 }
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+  .info_box.activeInfo,
+  .quiz_box.activeQuiz,
+  .result_box.activeResult {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
 .start_btn button {
   font-size: 25px;
   font-weight: 500;
